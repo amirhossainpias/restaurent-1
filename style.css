@@ -246,7 +246,7 @@ nav ul{
 .card a{
     text-decoration: none;
 }
-.gallary-boxs{
+/* .gallary-boxs{
     height: 350px;
     margin-top: 5px;
 }
@@ -257,7 +257,7 @@ nav ul{
 }
 .gallary-img-2{
     width: 32%;
-}
+} */
 
 /* .gallary-boxs .col-lg-8{
     margin-right: 8px;
@@ -272,7 +272,7 @@ nav ul{
 .gallary-boxs .col-md-6{
     width: 50%;
 } */
-
+/* 
 .gallary-img-3{
     margin-right: 8px;
     
@@ -321,43 +321,15 @@ nav ul{
    opacity: 1;
    background-color: rgba(253, 107, 3, 0.89) ;
    transition: transform 1s;
-}
+} */
 
 
 
 
-.search-icon-2 .fas{
-
-    font-size: 1px;
-    margin-left: 148px;
-    margin-top: 40%;
-     color: aliceblue;
-     opacity: 0;
-     
-}
-.search-icon-2{
-
-    height: 100%;
-    width: 352px;
-    opacity:  1;
-    transition: all 2s;
-     
-}
-.gallary-img-2:hover .search-icon-2 .fas{
-    font-size: 50px;
-    opacity: 1;
-    transition: font-size 0.5s ease-in-out;  
-}
-.gallary-img-2:hover .search-icon-2{
-   opacity: 1;
-   background-color: rgba(253, 107, 3, 0.89) ;
-   transition: all 1s; 
-    
-}
 
 
 
-
+/* 
 .search-icon-3{
     height: 100%;
     width: 353px;
@@ -380,7 +352,7 @@ nav ul{
    opacity: 1;
    background-color: rgba(253, 107, 3, 0.89) ;
    transition: all 1s; 
-}
+} */
 .section-7{
     background-image: url("images/blog_bg.jpg");
     background-repeat: no-repeat;
@@ -725,17 +697,64 @@ footer{
 
 .menu-button{
     /* background-color: rgb(196, 60, 60); */
-    width: 21%;
-    height: 150px;
+    width: 24%;
+    height: 250px;
 }
-
+.menu-button   h5{
+    color: rgb(0, 0, 0);
+    font-size: 2vw;
+}
 .menu-button:hover{
     background-color: brown;
     
 } 
 .menu-button:hover  h5{
     color: white;
+     
 }
 .menu-button:hover  img{
+    color: white;
+}
+ .modal-body{
+     background-color: yellow;
+ }
+
+
+.menu-item-body img{
+    /* margin-top: 10%; */
+    
+    border: 15px solid white;
+    border-radius: 100%;
+}
+.menu-item-body h4{
+    font-size: 30px;
+border: 2px solid rgb(219, 102, 6);
+border-radius: 50%;
+width: 75%;
+text-align: center;
+}
+
+
+
+
+
+
+
+
+.gallary-effect{
+    background-color:#e75a1e5e;
+    opacity: 0;
+    transition: all 0.5s;
+}
+.gallary-effect .fas{
+    font-size: 2vw;
+   color: white;
+   transition: all 0.2s;
+}
+.gallary-images:hover .gallary-effect{
+    opacity: 1;
+}
+.gallary-images:hover .gallary-effect .fas{
+    font-size: 5vw;
     color: white;
 }
