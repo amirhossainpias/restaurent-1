@@ -696,7 +696,6 @@ footer{
 }
 
 .menu-button{
-    /* background-color: rgb(196, 60, 60); */
     width: 24%;
     height: 250px;
 }
@@ -705,7 +704,7 @@ footer{
     font-size: 2vw;
 }
 .menu-button:hover{
-    background-color: brown;
+    background-color: #e75b1e;
     
 } 
 .menu-button:hover  h5{
@@ -721,21 +720,18 @@ footer{
 
 
 .menu-item-body img{
-    /* margin-top: 10%; */
-    
-    border: 15px solid white;
-    border-radius: 100%;
+   border: 5px solid white;
+   border-radius: 100%;
+   width: 91px;
+   height: 97px;
 }
+
 .menu-item-body h4{
-    font-size: 30px;
-border: 2px solid rgb(219, 102, 6);
-border-radius: 50%;
-width: 75%;
-text-align: center;
+    border: 0.5px solid rgb(255, 6, 6);
+    border-radius: 100%;
+    padding: 35px 26px;
 }
-
-
-
+ 
 
 
 
