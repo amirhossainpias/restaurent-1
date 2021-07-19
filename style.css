@@ -123,36 +123,7 @@ nav :hover{
 
  
     
- 
- @media (min-width: 0px) and (max-width: 768px){
-     .section-2{
-         height: 930px;
-         background-color: rgb(255, 255, 255);
-     }
-     .navbar-collapse{
-         background-color: #212529;
-         padding-left: 10px;
-       
-     }
 
-  }
-  @media (min-width: 768px) and (max-width: 991.98px) {
-    .section-2{
-        height: 700px;
-        background-color: rgb(255, 255, 255);
-    }
-    .navbar-collapse{
-        background-color: #212529;
-        padding-left: 10px;
-      
-    }
- }
- @media (min-width: 992px) and (max-width: 1400px) {
-    .section-2{
-        height: 650px;
-        background-color: rgb(255, 255, 255);
-    }
- }
 
 
 
@@ -256,100 +227,6 @@ nav :hover{
     border-radius: 0;
 }
 
- @media (min-width: 0px) and (max-width: 576px){
-    .blogs-icon span{
-        border: 2px dotted  black;
-        position: absolute;
-        width: 30%;
-        height: 50%;
-        background: rgba(185, 194, 109, 0.301);
-        color: #fff;
-        
-        transition: .3s all;
-        text-align: center;
-        padding: 80px;
-        border-radius: 100%;
-        top: 14%;
-        left: 30%;
-         
-    }
-    .section-7 button{
-        margin-left: 30%;
-    }
- }
- @media (min-width: 576px) and (max-width: 768px) {
-    .blogs-icon span{
-        border: 2px dotted  black;
-        position: absolute;
-        width: 30%;
-        height: 50%;
-        background: rgba(185, 194, 109, 0.301);
-        color: #fff;
-        
-        transition: .3s all;
-        text-align: center;
-        padding: 90px  ;
-        border-radius: 90%;
-        top: 10%;
-        left: 30%;
-         
-    }
-    .section-7 button{
-        margin-left: 30%;
-    }
-}
-@media (min-width: 768px) and (max-width: 992px) {
-    .blogs-icon span{
-        border: 2px dotted  black;
-        position: absolute;
-        width: 50%;
-        height: 50%;
-        background: rgba(185, 194, 109, 0.301);
-        color: #fff;
-        
-        transition: .3s all;
-        text-align: center;
-        padding: 70px;
-        border-radius: 100%;
-        top: 19%;
-        left: 8%;
-         
-    }
-    .section-7 button{
-        margin-left: 33%;
-    }
-}
-@media (min-width: 992px) and (max-width:1200px) {
-    
-    .section-7 button{
-        margin-left: 35%;
-    }
-}
-   
-@media (min-width: 992px) and (max-width:1400px) {
-    .blogs-icon span{
-        border: 2px dotted  black;
-        position: absolute;
-        width: 50%;
-        height: 50%;
-        background: rgba(185, 194, 109, 0.301);
-        color: #fff;
-        
-        transition: .3s all;
-        text-align: center;
-        padding: 80px;
-        border-radius: 100%;
-        top: 14%;
-        left: 19%;
-         
-    }
-    .section-7 button{
-        margin-left: 36%;
-    }
-}
-   
-  
-
 
 
 
@@ -389,32 +266,11 @@ nav :hover{
     transition: all 0.5s;
 }
 
-
-
-
 .section-8{
     background-image: url("images/full-bg.png");
      
 }
  
-@media (min-width: 0px) and (max-width: 576px){
-    .section-8{
-        height: 2200px;
-         
-    }
- }
- @media (min-width: 576px) and (max-width: 991.98px) {
-   .section-8{
-       height: 1600px;
-      
-   }
-}
-@media (min-width: 992px) and (max-width: 1400px) {
-   .section-8{
-       height: 980px;
-      
-   }
-}
 
 .pricing-card-img{
     background-color: rgb(255, 94, 0);
@@ -453,11 +309,7 @@ nav :hover{
     
     border-bottom: 1px solid rgba(136, 131, 131, 0.678) ;
 }
-.pricing-card button{
-    padding: 0 2%;
-    margin-left: 20%;
-   
-}
+
 .pricing-card button:hover{
     color: black;
 }
@@ -465,40 +317,8 @@ nav :hover{
     background-color: rgb(255, 255, 255);
     
 }
-@media (min-width: 0px) and (max-width: 576px){
-    .section-9{
-        height: 1300px;
-         
-    }
-    .input-div .input-style{
-        height: 60%;
-        border-radius: 5px;
-        border: 1.5px dotted rgba(59, 50, 53, 0.973);
-         
-    }
-   
- }
-
- @media (min-width: 576px) and (max-width: 991.98px) {
-   .section-9{
-       height: 900px;
-       
-   }
- 
-}
 
 
-@media (min-width: 992px) and (max-width: 1400px) {
-   .section-9{
-       height: 870px;
-      
-   }
-   .input-div .input-style{
-    height: 80%;
-    border-radius: 5px;
-    border: 1.5px dotted rgba(102, 95, 95, 0.973);
-     
-}
 .form-div{
     padding:0 100px;
  
@@ -509,7 +329,7 @@ nav :hover{
     width: 300px;
     margin-left: 30%;
 }
- }
+ 
 
 
 
@@ -653,3 +473,185 @@ footer{
     font-size: 5vw;
     color: white;
 }
+
+
+@media (min-width: 0px) and (max-width: 576px){
+    .blogs-icon span{
+        border: 2px dotted  black;
+        position: absolute;
+        width: 30%;
+        height: 50%;
+        background: rgba(185, 194, 109, 0.301);
+        color: #fff;
+        
+        transition: .3s all;
+        text-align: center;
+        padding: 80px;
+        border-radius: 100%;
+        top: 14%;
+        left: 30%;
+         
+    }
+    .section-7 button{
+        margin-left: 30%;
+    }
+    .section-9{
+        height: 1300px;
+         
+    }
+    .input-div .input-style{
+        height: 60%;
+        border-radius: 5px;
+        border: 1.5px dotted rgba(59, 50, 53, 0.973);
+         
+    }
+    .section-8{
+        height: 2200px;
+         
+    }
+    .pricing-card button{
+        padding: 5 5%;
+        margin-left: 38%;
+       
+    }
+ }
+ @media (min-width: 576px) and (max-width: 768px) {
+    .blogs-icon span{
+        border: 2px dotted  black;
+        position: absolute;
+        width: 30%;
+        height: 50%;
+        background: rgba(185, 194, 109, 0.301);
+        color: #fff;
+        
+        transition: .3s all;
+        text-align: center;
+        padding: 90px  ;
+        border-radius: 90%;
+        top: 10%;
+        left: 30%;
+         
+    }
+    .section-7 button{
+        margin-left: 30%;
+    }
+}
+ @media (min-width: 576px) and (max-width: 991.98px) {
+   .section-8{
+       height: 1600px;
+      
+   }
+   .pricing-card button{
+    padding: 0 2%;
+    margin-left: 25%;
+   
+}
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .section-2{
+        height: 700px;
+        background-color: rgb(255, 255, 255);
+    }
+    .navbar-collapse{
+        background-color: #212529;
+        padding-left: 10px;
+      
+    }
+    .blogs-icon span{
+        border: 2px dotted  black;
+        position: absolute;
+        width: 50%;
+        height: 50%;
+        background: rgba(185, 194, 109, 0.301);
+        color: #fff;
+        
+        transition: .3s all;
+        text-align: center;
+        padding: 70px;
+        border-radius: 100%;
+        top: 19%;
+        left: 8%;
+         
+    }
+    .section-7 button{
+        margin-left: 33%;
+    }
+ }
+ @media (min-width: 992px) and (max-width:1200px) {
+    
+    .section-7 button{
+        margin-left: 35%;
+    }
+}
+@media (min-width: 992px) and (max-width: 1400px) {
+    .section-2{
+        height: 650px;
+        background-color: rgb(255, 255, 255);
+    }
+    .section-9{
+        height: 870px;
+       
+    }
+    .input-div .input-style{
+     height: 80%;
+     border-radius: 5px;
+     border: 1.5px dotted rgba(102, 95, 95, 0.973);
+    } 
+    .section-8{
+       height: 980px;
+      
+   }
+   .pricing-card button{
+    padding: 0 2%;
+    margin-left: 20%;
+   
+}
+.blogs-icon span{
+    border: 2px dotted  black;
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    background: rgba(185, 194, 109, 0.301);
+    color: #fff;
+    
+    transition: .3s all;
+    text-align: center;
+    padding: 80px;
+    border-radius: 100%;
+    top: 14%;
+    left: 19%;
+     
+}
+.section-7 button{
+    margin-left: 36%;
+}
+
+}
+
+
+
+
+/*  */
+
+ 
+@media (min-width: 0px) and (max-width: 768px){
+    .section-2{
+        height: 930px;
+        background-color: rgb(255, 255, 255);
+    }
+    .navbar-collapse{
+        background-color: #212529;
+        padding-left: 10px;
+      
+    }
+
+ }
+
+/*  */
+
+
+
+
+   
+  
+
