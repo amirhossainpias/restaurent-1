@@ -8,18 +8,18 @@ nav img{
 }
 hr{
     padding-bottom: 0;
-    width: 1px;
+    width: 0;
     margin-top: 6px;
     margin-bottom: 0;
     opacity: 0;
     border: 2px solid;
     transition:  width 0.5s ease-in-out, opacity 2s;
+    color:  #e75b1e;
 }
 nav a:hover hr{
     opacity: 1;
     width: 100%;
- 
-
+    
 }
 
 .active-hr{
@@ -28,7 +28,7 @@ nav a:hover hr{
    width: 100%;
     
 }
-
+ 
 nav{
     height: 88px;
 }
@@ -36,6 +36,13 @@ nav ul{
     padding-top: 30px;
   
 }
+
+nav :hover{
+   text-decoration: none;
+    color:  #e75b1e !important;
+}
+
+ 
 
 .baner{
     background-image: url("images/banner.jpg");
@@ -122,10 +129,10 @@ nav ul{
          height: 930px;
          background-color: rgb(255, 255, 255);
      }
-
-     .navbar-nav{
-        background-image: linear-gradient(red, green);
+     .navbar-collapse{
+         background-color: #212529;
          padding-left: 10px;
+       
      }
 
   }
@@ -133,6 +140,11 @@ nav ul{
     .section-2{
         height: 700px;
         background-color: rgb(255, 255, 255);
+    }
+    .navbar-collapse{
+        background-color: #212529;
+        padding-left: 10px;
+      
     }
  }
  @media (min-width: 992px) and (max-width: 1400px) {
@@ -142,14 +154,7 @@ nav ul{
     }
  }
 
-/* // Example: Style from medium breakpoint and down */
-/* @include media-breakpoint-down(md) {
-    .section-2 {
-        height: 100px;
-        background-color: red;
-    }
-}
- */
+
 
 
 
@@ -171,14 +176,7 @@ nav ul{
     border-radius: 100%;
     max-width: 95%;
 }
- 
-/* .section-3{
-     background-image: url("images/special_menu_bg.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-attachment: fixed;
-    height: 500px;
-} */
+
 .carousel-item img{
     width: 200px;
     height: 200px;
@@ -244,113 +242,7 @@ nav ul{
 .card a{
     text-decoration: none;
 }
-/* .gallary-boxs{
-    height: 350px;
-    margin-top: 5px;
-}
-.gallary-img-1{
-    margin-right: 8px;
-    width: 65%;
 
-}
-.gallary-img-2{
-    width: 32%;
-} */
-
-/* .gallary-boxs .col-lg-8{
-    margin-right: 8px;
-    width: 20%;
-}
-.gallary-boxs .col-lg-4{
-    width: 32%;
-}
-.gallary-boxs .col-md-12{
-    width: 100%;
-}
-.gallary-boxs .col-md-6{
-    width: 50%;
-} */
-/* 
-.gallary-img-3{
-    margin-right: 8px;
-    
-    width: 32%;
-    margin-left: 0;
-    
-}
- 
-.gallary-img-7{
-    margin-left: 8px;
- 
-    width:  64%;
-}
-.search-icon-1{
-
-    height: 100%;
-    width: 714px;
-    opacity:  1;
-    transition: all 2s;
-}
-.search-icon-1 .fas{
-
-     font-size: 1px;
-     margin-left: 300px;
-     margin-top: 20%;
-      color: aliceblue;
-      opacity: 0;
-      
-}
- .gallary-img-1:hover .search-icon-1 .fas{
-     font-size: 50px;
-     opacity: 1;
-     transition: font-size 0.5s ease-in-out;  
-}
-.gallary-img-1:hover .search-icon-1{
-    opacity: 1;
-    background-color: rgba(253, 107, 3, 0.89) ;
-    transition: transform 1s;
-}
-.gallary-img-7:hover .search-icon-1 .fas{
-    font-size: 50px;
-    opacity: 1;
-    transition: font-size 0.5s ease-in-out;  
-}
-.gallary-img-7:hover .search-icon-1{
-   opacity: 1;
-   background-color: rgba(253, 107, 3, 0.89) ;
-   transition: transform 1s;
-} */
-
-
-
-
-
-
-
-/* 
-.search-icon-3{
-    height: 100%;
-    width: 353px;
-  
-}
-.search-icon-3 .fas{
-    font-size: 80px;
-    margin-left: 145px;
-    margin-top: 38%;
-     color: aliceblue;
-     opacity: 0;
-}
-
-.gallary-img-3:hover .search-icon-3 .fas{
-    font-size: 50px;
-    opacity: 1;
-    transition: font-size 0.5s ease-in-out ;  
-}
-.gallary-img-3:hover .search-icon-3{
-   opacity: 1;
-   background-color: rgba(253, 107, 3, 0.89) ;
-   transition: all 1s; 
-} */
 .section-7{
     background-image: url("images/blog_bg.jpg");
     background-repeat: no-repeat;
@@ -713,9 +605,17 @@ footer{
     color: white;
 }
  .modal-body{
-     background-color: yellow;
+    background-image: url("");
+         
+    background-image: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.034) 0%,rgba(0, 0, 0, 0.055) 100%), url("images/blog_bg.jpg");
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
  }
-
+ .modal-body h2{
+     color: #e75b1e;
+ }
 
 .menu-item-body img{
    border: 5px solid white;
@@ -725,9 +625,10 @@ footer{
 }
 
 .menu-item-body h4{
-    border: 0.5px solid rgb(255, 6, 6);
+    border: 0.5px solid #e75b1e;
     border-radius: 100%;
     padding: 35px 26px;
+    color: white;
 }
  
 
