@@ -324,11 +324,7 @@ nav :hover{
  
 }
 
-.form-button{
-    margin-top: 40px;
-    width: 300px;
-    margin-left: 30%;
-}
+
  
 
 
@@ -584,6 +580,7 @@ footer{
     }
 }
 @media (min-width: 992px) and (max-width: 1400px) {
+    
     .section-2{
         height: 650px;
         background-color: rgb(255, 255, 255);
