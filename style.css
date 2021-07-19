@@ -132,7 +132,7 @@ nav :hover{
 
 
 
-.section-2 h1,.section-4 h1, .section-5 h1, .section-6 h1, .section-7 h1, .section-8 h1, .section-9 h1, .section-10 h1{
+.section-2 h1,.section-4 h1, .section-5 h1, .section-6 h1, .section-7 h1, .section-8 h1, .section-9 h1, .section-10 h1, .owner h1{
     font-family: 'Nautilus Pompilius', sans-serif;
     font-size: 5vw;
     color: #fd4d01e8;
@@ -626,10 +626,6 @@ footer{
 }
 
 
-
-
-/*  */
-
  
 @media (min-width: 0px) and (max-width: 768px){
     .section-2{
@@ -643,9 +639,15 @@ footer{
     }
 
  }
-
-/*  */
-
+ 
+.owner{
+    background-image: url("");
+    background-image: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.096) 0%,rgba(0, 0, 0, 0.52) 100%), url("images/owner-bg\ \(1\).jpg");
+     
+    background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+}
 
 
 
